@@ -38,7 +38,7 @@ jobs:
     
     - uses: mnevadom/ibmlogin@v1
       with:
-        token: ${{ secrets.OKTETO_TOKEN }}
+        token: ${{ secrets.IBM_TOKEN }}
         url: "cloud.ibm.com"
         region: "eu-de"
         resourcegroup: test-resources
