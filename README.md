@@ -23,6 +23,8 @@ This action is to login into IBM Cloud
 
 ## Ejemplo de uso
 
+docker run -ti ibmlogin mytoken "cloud.ibm.com" "eu-de" test-resources
+
 
 ```yaml
 # File: .github/workflows/workflow.yml
