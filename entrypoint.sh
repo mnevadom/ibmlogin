@@ -29,13 +29,27 @@ if [ -z $resourcegroup ]; then
   exit 1
 fi
 
-echo RUNNING sudo ibmcloud update --force
+echo "My home is "
+echo $HOME
+
+echo RUNNING sudo ibmcloud update 
+
+echo "My home is "
+echo $HOME
 
 ibmcloud update --force
 
-cat /github/home/.bluemix/config.json
+echo "My home is "
+echo $HOME
+
+
+echo "My home is "
+echo $HOME
 
 echo RUNNIG FROM ACTION: ibmcloud login -a $url -r $region -g $resourcegroup --apikey $token
 ibmcloud login -a $url -r $region -g $resourcegroup --apikey $token
 
-cat /github/home/.bluemix/config.json
+echo "My home is "
+echo $HOME
+
+
