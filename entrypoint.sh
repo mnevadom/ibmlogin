@@ -6,6 +6,9 @@ url=$2
 region=$3
 resourcegroup=$4
 
+echo "My home is "
+echo $HOME
+
 if [ -z $token ]; then
   echo "IBM Login token is required"
   exit 1
