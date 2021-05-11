@@ -30,12 +30,8 @@ echo RUNNING sudo ibmcloud update --force
 
 sudo ibmcloud update --force
 
-echo "cat file"
-cat root/.bluemix/config.json
-
+ls
 
 echo RUNNIG FROM ACTION: ibmcloud login -a $url -r $region -g $resourcegroup --apikey $token
 ibmcloud login -a $url -r $region -g $resourcegroup --apikey $token
 
-echo "cat file"
-cat root/.bluemix/config.json
