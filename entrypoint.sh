@@ -31,7 +31,7 @@ fi
 
 echo RUNNING sudo ibmcloud update --force
 
-sudo ibmcloud update --force
+ibmcloud update --force
 
 cat /github/home/.bluemix/config.json
 
