@@ -29,14 +29,11 @@ if [ -z $resourcegroup ]; then
   exit 1
 fi
 
-ibmcloud --help
 
 echo RUNNING sudo ibmcloud update 
 
 
 ibmcloud update --force
-
-ibmcloud --help
 
 
 echo RUNNIG FROM ACTION: ibmcloud login -a $url -r $region -g $resourcegroup --apikey $token
